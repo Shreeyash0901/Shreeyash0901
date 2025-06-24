@@ -1,0 +1,35 @@
+/* Add this to your CSS file */
+.glow-effect {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glow-effect:hover {
+    box-shadow: 0 0 20px rgba(154, 46, 255, 0.8); 
+    
+  }
+  
+
+  .glow-effect-icon {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glow-effect-icon:hover {
+    box-shadow: 0 0 20px rgba(154, 46, 255, 0.8); 
+    font-size: 5rem;
+  }
+  
+
+  .glow-effect-nav {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glow-effect-nav:hover {
+    box-shadow: 0 0 20px rgba(154, 46, 255, 0.8); 
+   
+  }
+  /* styles.css or your component's CSS file */
+::selection {
+    background-color: rgba(0, 255, 255, 0.5); /* Adjust color and opacity as needed */
+    color: rgba(255, 255, 255, 0.8); /* Adjust text color and opacity as needed */
+  }
+  
