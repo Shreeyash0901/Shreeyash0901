@@ -36,7 +36,22 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             className='my-2 max-w-xl py-6 font-light tracking-tighter text-center'>{HERO_CONTENT}</motion.p> 
+
+            <motion.a
+  variants={container(0.5)}
+  initial="hidden"
+  animate="visible"
+  href="/public/Shreeyash Ravindra Helchal-1.pdf"
+  download
+  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl shadow-md transition duration-300"
+>
+  <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
+    Download Resume
+  </span>
+</motion.a>
+
           </div>
+          
         </div>
         
       </div>

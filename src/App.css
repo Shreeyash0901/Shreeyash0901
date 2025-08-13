@@ -11,11 +11,13 @@
 
   .glow-effect-icon {
     transition: box-shadow 0.3s ease;
+    height: 8rem; 
+    width: 8rem;
   }
   
   .glow-effect-icon:hover {
     box-shadow: 0 0 20px rgba(154, 46, 255, 0.8); 
-    font-size: 5rem;
+    filter: drop-shadow(0 0 5px rgba(154, 46, 255, 0.8));
   }
   
 

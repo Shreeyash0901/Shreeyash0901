@@ -80,6 +80,14 @@ export const PROJECTS = [
       "A simple weather application using OpenWeatherMap API ",
     technologies: ["HTML", "CSS", "tailwind", "react+vite","fetch API" ],
   },
+  {
+    title: "WeatherApp",
+    url:" https://shreeyash0901.github.io/WeatherApp/",
+    image: project5,
+    description:
+      "A simple weather application using OpenWeatherMap API ",
+    technologies: ["HTML", "CSS", "tailwind", "react+vite","fetch API" ],
+  },
 ];
 
 export const CONTACT = {

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaReact } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
@@ -13,7 +13,7 @@ import { SiMongoose } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { GiTechnoHeart } from "react-icons/gi";
+
 
 import Skills from './Skills';
 const Technologies = () => {
@@ -49,7 +49,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center '>
-            <FaReact className=' text-7xl  text-cyan-400 react m-3'/>
+            <FaReact className=' text-2xl  text-cyan-400 react m-3'/>
             <h1>React</h1>
             </motion.div>
 
@@ -58,7 +58,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center'>
-            <SiMysql className=' text-7xl  text-orange-400 m-3'/>
+            <SiMysql className=' text-2xl  text-orange-400 m-3'/>
             <h1>MySQL</h1>
             
             </motion.div>
@@ -68,7 +68,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center'>
-            <SiSpring className=' text-7xl  text-green-400  m-3 '/>
+            <SiSpring className=' text-2xl  text-green-400  m-3 '/>
             <h1>Spring</h1>
             </motion.div>
 
@@ -77,7 +77,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center  '>
-            <SiTailwindcss className=' text-7xl  text-cyan-400 m-3' />
+            <SiTailwindcss className=' text-2xl  text-cyan-400 m-3' />
             <h1>TailwindCSS</h1>
             </motion.div>
 
@@ -86,7 +86,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center  '>
-            <SiHibernate className=' text-7xl  text-cyan-400 m-3'/>
+            <SiHibernate className=' text-2xl  text-cyan-400 m-3'/>
             <h1>Hidernate</h1>
             </motion.div>            
 
@@ -162,59 +162,6 @@ const Technologies = () => {
             <h1>Github</h1>
             </motion.div>
 
-            <motion.div
-            variants={iconvariants(3)}
-            initial="initial"
-            animate="animate"
-             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center   '>
-            <FaNode className=' text-7xl  text-green-400 m-3 '/>
-            <h1>Node.js</h1>
-            </motion.div>
-
-            <motion.div
-            variants={iconvariants(3)}
-            initial="initial"
-            animate="animate"
-             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center   '>
-            <FaNode className=' text-7xl  text-green-400 m-3 '/>
-            <h1>Node.js</h1>
-            </motion.div>
-
-            <motion.div
-            variants={iconvariants(3)}
-            initial="initial"
-            animate="animate"
-             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center   '>
-            <FaNode className=' text-7xl  text-green-400 m-3 '/>
-            <h1>Node.js</h1>
-            </motion.div>
-
-            <motion.div
-            variants={iconvariants(3)}
-            initial="initial"
-            animate="animate"
-             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center   '>
-            <FaNode className=' text-7xl  text-green-400 m-3 '/>
-            <h1>Node.js</h1>
-            </motion.div>
-
-            <motion.div
-            variants={iconvariants(3)}
-            initial="initial"
-            animate="animate"
-             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center   '>
-            <FaNode className=' text-7xl  text-green-400 m-3 '/>
-            <h1>Node.js</h1>
-            </motion.div>
-
-            <motion.div
-            variants={iconvariants(3)}
-            initial="initial"
-            animate="animate"
-             className='rounded-2xl border-4 border-neutral-900 p-4 glow-effect-icon flex flex-col items-center   '>
-            <FaNode className=' text-7xl  text-green-400 m-3 '/>
-            <h1>Node.js</h1>
-            </motion.div>
 
 
          </motion.div>
